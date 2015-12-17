@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 import os,time
 off = raw_input("Deseas comenzar la sugarizacion? (si, no o ayuda)")
 
@@ -12,7 +14,7 @@ if off == "si":
 	os.system("./Sugarizar\ software/sug")
 if off == "no":
 	print "Hasta luego..."
-	os.system("poweroff")
+	os.system("sudo poweroff")
 if off == "ayuda":
 	print "Responde las preguntas" 
 	print "Luego reinicia el sistema"

@@ -1,8 +1,8 @@
 
 [Activity]
 name = Sugarizador
-service_name = org.sugarizar.com
-class = activity.VteActivity
+bundle_id = org.sugarizar.com
+exec = sugar-activity activity.VteActivity
 icon = Sugar
 activity_version = 1
 mime_types = 
